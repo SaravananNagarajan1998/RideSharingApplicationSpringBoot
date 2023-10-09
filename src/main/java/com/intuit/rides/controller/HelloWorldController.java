@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController
 {
-   //Test Controller
 	@RequestMapping(method=RequestMethod.GET,path="/hello-world")
    
    @GetMapping(path="/hello-world")
