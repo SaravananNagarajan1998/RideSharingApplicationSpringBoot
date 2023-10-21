@@ -27,6 +27,7 @@ public class RidesController
 @PostMapping(value ="/adduser", produces = "application/json")
 public ResponseEntity<String> addUser(@RequestBody Users user)
 {
+
 	return repoSingleton.addUser(user);
 }
 
